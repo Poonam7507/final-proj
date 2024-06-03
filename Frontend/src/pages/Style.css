@@ -1,0 +1,89 @@
+.about{
+   
+    font-size: 1.5vw;
+    background-color: #ebf8ff;
+   padding-left:20%;
+   padding: 5%;
+}
+/* #contactme h1{
+    margin-top: 2%;;
+    text-align: center;
+} */
+div.contactpage{
+    background-color: #ebf8ff;
+
+    margin:0;
+    /* height: 100vh; */
+}
+ .contactpage{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    /* background:linear-gradient(to right bottom,rgb(189, 186, 218),whitesmoke,rgb(201, 211, 230),rgb(15, 121, 241)); */
+   /* height: 100vh; */
+}
+ .contactpage .page{
+    width: 30vw;
+    height: 430px;
+    /* opacity: 0; */
+    /* animation: movebox 0.9s ease-in-out 1s forwards; */
+    
+    
+}
+ .contactpage #form{
+    /* opacity: 0; */
+    /* animation: movebox 0.9s ease-in-out  forwards; */
+    margin-top: 10px;
+    position: relative;
+    padding: 12px;
+    border-radius: 12px;
+    /* background:linear-gradient(to right bottom,rgb(189, 186, 218),whitesmoke,rgb(201, 211, 230),rgb(15, 121, 241)); */
+
+    border: 2px solid black;
+   
+}
+.contactpage .page #nam{
+    width: 97%;
+    padding: 0.6vw;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px gray;
+} 
+ .contactpage .page #na{
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 1.2vw;
+}
+ .contactpage .page #na:hover{
+    transition-duration:0.3s ;
+    transform: translate(0px,-2px);
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: red;
+    color:white;
+}
+ .contactpage .page #na:active{
+    cursor:progress;
+}
+.contactpage .page .tele{
+    color: black;
+}
+ .contactpage .page1:hover{
+    transform: translate(0px,-10px);
+    transition: all 0.1s ease-in-out;
+}
+.contactpage .page i:hover{
+    color:white;
+}
+ .contactpage .page .info ,h1{
+    margin-bottom: 10px; 
+ } 
+
+
+ @media screen  and (max-width:554px)and (min-width:0px){
+    .contactpage .page{
+        width: 40vw;
+        height: 280px;
+    }
+    
+   
+ }
